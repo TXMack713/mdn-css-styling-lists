@@ -1,3 +1,53 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  hyphens: auto;
+  word-break: break-all;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 body {
   background: blanchedalmond;
+}
+
+/* General styles */
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+ul,
+ol,
+dl,
+p {
+  font-size: 1.5rem;
+}
+
+li,
+p {
+  line-height: 1.5;
+}
+
+/* Description list styles */
+
+dd,
+dt {
+  line-height: 1.5;
+}
+
+dt {
+  font-weight: bold;
 }
