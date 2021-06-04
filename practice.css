@@ -28,3 +28,7 @@ ul {
 ol {
   list-style-type: lower-alpha;
 }
+
+body {
+  background-color: blanchedalmond;
+}
